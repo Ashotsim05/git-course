@@ -593,15 +593,196 @@ int main() {
 
 //6 - a)
 
-#include <iostream>
+/*#include <iostream>
 int main() {
-    
+    double x, y;
+    std::cin >> x >> y;
+    if(x<0 && y>0){
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+
+// b)
+
+/*#include <iostream>
+int main() {
+    double x, y;
+    std::cin >> x >> y;
+    if(x>0 && y<0){
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+
+// c)
+
+
+/*#include <iostream>
+int main() {
+    double x, y;
+    std::cin >> x >> y;
+    if((x<0 && y>0) || (x<0 && y<0)){
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+
+
+// d)
+
+
+/*#include <iostream>
+int main() {
+    double x, y;
+    std::cin >> x >> y;
+    if((x>0 && y>0) || (x<0 && y<0)){
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+
+
+// 7
+
+/*#include <iostream>
+int main() {
+    unsigned int x, y, x1, y1, x2, y2;
+    std::cin >> x >> y >> x1 >> y1 >> x2 >> y2;
+    if(x1<x && x<x2 && x1<x2) {
+        if(y2<y && y<y1 && y2<y1) {
+            std::cout << "YES" << std::endl;
+        }
+        else {
+            std::cout << "NO" << std::endl;
+        }
+    }
+    return 0;
+}*/
+
+
+
+// 8
+
+
+
+/*#include <iostream>
+int main() {
+    int a, b, c;
+    int A, B, C;
+    std::cin >> a >> b >> c;
+    A = a+b;
+    B = b+c;
+    C = a+c;
+    if(A>c && B>a && C>b){
+        std::cout << "YES" << std::endl;
+    } 
+    else {
+        std::cout << "NO" << std::endl;
+    }
     return 0;
 }
 
+*/
+
+
+// 9 - a)
 
 
 
+/*#include <iostream>
+int main() {
+    int a, b, c;
+    int A, B, C;
+    std::cin >> a >> b >> c;
+    A = a+b;
+    B = b+c;
+    C = a+c;
+    if(A>c && B>a && C>b){
+        if(a==b && b==c && a==c) {
+            std::cout << "YES" << std::endl;
+        }
+        else {
+            std::cout << "NO" << std::endl;
+        }
+    }
+    return 0;
+}*/
+
+
+
+// b)
+
+/*#include <iostream>
+int main() {
+    int a, b, c;
+    int A, B, C;
+    std::cin >> a >> b >> c;
+    A = a+b;
+    B = b+c;
+    C = a+c;
+    if(A>c && B>a && C>b){
+        if((a==b && a!=c && b!=c) || (a==c && a!=b && b!=c) || (b==c && b!=a && c!=a)) {
+            std::cout << "YES" << std::endl;
+        }
+        else {
+            std::cout << "NO" << std::endl;
+        }
+
+    } 
+    return 0;
+}*/
+
+
+// c)
+
+/*#include <iostream>
+int main() {
+    int a, b, c;
+    int A, B, C;
+    int x, y, z, ank_gumar;
+    std::cin >> a >> b >> c;
+    std::cin >> x >> y >> z;
+    A = a+b;
+    B = b+c;
+    C = a+c;
+    
+    ank_gumar = 180;
+    if(A>c && B>a && C>b){
+        if((x == ank_gumar/2 && y+z == 90) || (y == ank_gumar/2 && x+z == 90) || (z == ank_gumar/2 && x+y==90)) {
+            std::cout << "YES" << std::endl;
+        } 
+        else {
+            std::cout << "NO" << std::endl;
+        }
+    } 
+    return 0;
+}*/
+
+
+
+
+// 10
 
 
 
