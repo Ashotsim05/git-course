@@ -10,24 +10,6 @@ int main() {
     return 0;
 }*/
 
-// 16
-#include <iostream>
-#include <cmath>
-int main() {
-    unsigned a;
-    unsigned b;
-    float c;
-    float d;
-
-    std::cin >> a >> b;
-    c = (float)(a+b)/2;
-    d = sqrt(a*a + b*b);
-
-    std::cout << c << std::endl;
-    std::cout << d << std::endl;
-    
-    return 0;
-}
 
 
 
@@ -167,3 +149,468 @@ int main() {
 
 
 }*/
+
+
+
+
+
+
+
+
+
+/*#include <iostream>
+
+int main() {
+    unsigned a;
+    unsigned b;
+    float c;
+    float d;
+
+    std::cin >> a >> b;
+    c = (float)(a+b)/2;
+    d*=d;
+    d = a*a+b*b;
+
+    std::cout << c << std::endl;
+    std::cout << d << std::endl;
+    
+    return 0;
+}*/
+
+
+
+
+// exercises from page 41 to 44:
+
+// 1 - a)
+
+/*#include <iostream>
+int main() {
+    int a, b;
+    std::cin >> a >> b;
+    if(a%2==1 && b%2 == 1) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+// b)
+
+/*#include <iostream>
+int main() {
+    int a, b;
+    std::cin >> a >> b;
+    if(a%2 == 1 || b%2 == 1) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}
+*/
+
+
+// g)
+
+/*#include <iostream>
+int main() {
+    int a, b;
+    std::cin >> a >> b;
+    if(a%2 == 1) {
+        std::cout << "YES" << std::endl;
+    }
+    else if(b%2 == 1) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+// d)
+
+/*#include <iostream>
+int main() {
+    int a, b;
+    std::cin >> a >> b;
+    if(a%2==1 && b%2==1) {
+        std::cout << "YES" << std::endl;
+    }
+    else if(a%2 == 0 && b%2 == 0) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+// 2 - a)
+
+
+/*#include <iostream>
+int main() {
+    int a, b, c;
+    std::cin >> a >> b >> c;
+    if(a==0 || b==0 || c==0) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+// b)
+
+/*#include <iostream>
+int main() {
+    int a, b, c;
+    std::cin >> a >> b >> c;
+    if(a == 5 && b != 5 && c != 5) {
+        std::cout << "YES" << std::endl;
+    }
+    else if(b == 5 && a != 5 && c != 5) {
+        std::cout << "YES" << std::endl;
+    }
+    else if(c == 5 && a!=5 && b!=5) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+
+// g)
+/*
+#include <iostream>
+int main() {
+    int a, b, c;
+    std::cin >> a >> b >> c;
+    if(a!=b && b!=c && a!=c) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+
+// d)
+
+/*#include <iostream>
+int main() {
+    int a, b, c;
+    std::cin >> a >> b >> c;
+    if(a==b) {
+        std::cout << "YES" << std::endl;
+    }
+    else if(b == c) {
+        std::cout << "YES" << std::endl;
+    }
+    else if(a == c) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+
+
+// e)
+
+
+/*#include <iostream>
+int main() {
+    int a, b, c;
+    std::cin >> a >> b >> c;
+    if(a<0 || b<0 || c<0) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}
+
+
+*/
+
+
+
+// 3 - a)
+
+/*#include <iostream>
+int main() {
+    int a, b, c;
+    std::cin >> a >> b >> c;
+    if(a>0 && b>0 && c>0) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+
+// b)
+
+/*#include <iostream>
+int main() {
+    int a, b, c;
+    std::cin >> a >> b >> c;
+    if(a>0 || b>0 || c>0) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+// g)
+
+/*#include <iostream>
+int main() {
+    int a, b, c;
+    std::cin >> a >> b >> c;
+    if(a>0) {
+        std::cout << "YES" << std::endl;
+    }
+    else if(b>0) {
+        std::cout << "YES" << std::endl;
+    }
+    else if(c>0) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+
+
+}*/
+
+
+
+// d)
+
+/*#include <iostream>
+int main() {
+    int a, b, c;
+    std::cin >> a >> b >> c;
+    if(a>0 && b>0) {
+        std::cout << "YES" << std::endl;
+    }
+    else if(b>0 && c>0) {
+        std::cout << "YES" << std::endl;
+    }
+    else if(a>0 && c>0) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+// e)
+
+/*#include <iostream>
+int main() {
+    int a, b, c;
+    std::cin >> a >> b >> c;
+    if(a==b || b==c || a==c) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+// z)
+
+/*#include <iostream>
+int main() {
+    int a, b, c;
+    std::cin >> a >> b >> c;
+    if((a>0 && b<0) || (a<0 && b>0)) {
+        std::cout << "YES" << std::endl;
+    }
+    else if((a<0 && b>0) || (a>0 && c<0)) {
+        std::cout << "YES" << std::endl;
+    }
+    else if((b>0 && c<0) || (b<0 && c>0)) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+// 4 - a)
+
+/*#include <iostream>
+int main() {
+    unsigned int a;
+    std::cin >> a;
+    if((a>9 && a<100) && (a%2==0)) {
+        std::cout << "YES" << std::endl;  
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}
+*/
+
+
+// b)
+
+
+/*#include <iostream>
+int main() {
+    unsigned int a;
+    std::cin >> a;
+    if((a>99 && a<1000) && (a%2==1)) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}
+*/
+
+
+
+// 5 - a)
+
+/*#include <iostream>
+int main() {
+    int a;
+    int x, y, z;
+    std::cin >> a;
+    if(a>99 && a<1000) {
+        std::cout << a << std::endl;
+    }
+    x = a/100;
+    a%=100;
+    y = a/10;
+    a%=10;
+    z = a;
+    if(x!=y && x!=z && y!=z) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}*/
+
+
+// b
+
+
+/*#include <iostream>
+int main() {
+    int a;
+    int x, y, z;
+    std::cin >> a;
+    if(a>99 && a<1000) {
+        std::cout << a << std::endl;
+    }
+    x = a/100;
+    a%=100;
+    y = a/10;
+    a%=10;
+    z = a;
+    if(x<y && y<z && x<z) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}
+*/
+
+
+// g)
+
+
+/*#include <iostream>
+int main() {
+    int a;
+    int x, y, z;
+    std::cin >> a;
+    if(a>99 && a<1000) {
+        std::cout << a << std::endl;
+    }
+    x = a/100;
+    a%=100;
+    y = a/10;
+    a%=10;
+    z = a;
+    if(x!=y && x==z && y!=z) {
+        std::cout << "YES" << std::endl;
+    }
+    else if(x==y && x==z && y==z) {
+        std::cout << "YES" << std::endl;
+    }
+    else {
+        std::cout << "NO" << std::endl;
+    }
+    return 0;
+}
+*/
+
+
+
+//6 - a)
+
+#include <iostream>
+int main() {
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
