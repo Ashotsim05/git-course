@@ -10,10 +10,7 @@ int main() {
     return 0;
 }*/
 
-
-
-
-//17
+// 17
 /*
 #include <iostream>
 
@@ -28,13 +25,11 @@ int main() {
     return 0;
 }*/
 
-
-
 // 18
 
 /*#include <iostream>
 #include <cmath>
-    
+
 int main() {
     int a = 3;
     int b = 4;
@@ -49,8 +44,6 @@ int main() {
     std::cout << Ank << std::endl;
     return 0;
     }*/
-
-
 
 // 19
 
@@ -73,8 +66,6 @@ int main() {
     std::cout << h << std::endl;
     return 0;
 }*/
-
-
 
 // 20
 /*
@@ -104,8 +95,7 @@ int main() {
     return 0;
 }*/
 
-
-//22
+// 22
 
 /*#include <iostream>
 int main(){
@@ -121,8 +111,7 @@ int main(){
 
 }*/
 
-//23
-
+// 23
 
 /*#include <iostream>
 int main() {
@@ -135,7 +124,7 @@ int main() {
     return 0;
 }*/
 
-//24
+// 24
 
 /*#include <iostream>
 int main() {
@@ -149,14 +138,6 @@ int main() {
 
 
 }*/
-
-
-
-
-
-
-
-
 
 /*#include <iostream>
 
@@ -173,12 +154,9 @@ int main() {
 
     std::cout << c << std::endl;
     std::cout << d << std::endl;
-    
+
     return 0;
 }*/
-
-
-
 
 // exercises from page 41 to 44:
 
@@ -213,7 +191,6 @@ int main() {
 }
 */
 
-
 // g)
 
 /*#include <iostream>
@@ -231,7 +208,6 @@ int main() {
     }
     return 0;
 }*/
-
 
 // d)
 
@@ -251,9 +227,7 @@ int main() {
     return 0;
 }*/
 
-
 // 2 - a)
-
 
 /*#include <iostream>
 int main() {
@@ -267,7 +241,6 @@ int main() {
     }
     return 0;
 }*/
-
 
 // b)
 
@@ -290,8 +263,6 @@ int main() {
     return 0;
 }*/
 
-
-
 // g)
 /*
 #include <iostream>
@@ -306,8 +277,6 @@ int main() {
     }
     return 0;
 }*/
-
-
 
 // d)
 
@@ -330,11 +299,7 @@ int main() {
     return 0;
 }*/
 
-
-
-
 // e)
-
 
 /*#include <iostream>
 int main() {
@@ -352,8 +317,6 @@ int main() {
 
 */
 
-
-
 // 3 - a)
 
 /*#include <iostream>
@@ -369,8 +332,6 @@ int main() {
     return 0;
 }*/
 
-
-
 // b)
 
 /*#include <iostream>
@@ -385,7 +346,6 @@ int main() {
     }
     return 0;
 }*/
-
 
 // g)
 
@@ -410,8 +370,6 @@ int main() {
 
 }*/
 
-
-
 // d)
 
 /*#include <iostream>
@@ -433,7 +391,6 @@ int main() {
     return 0;
 }*/
 
-
 // e)
 
 /*#include <iostream>
@@ -448,7 +405,6 @@ int main() {
     }
     return 0;
 }*/
-
 
 // z)
 
@@ -471,7 +427,6 @@ int main() {
     return 0;
 }*/
 
-
 // 4 - a)
 
 /*#include <iostream>
@@ -479,7 +434,7 @@ int main() {
     unsigned int a;
     std::cin >> a;
     if((a>9 && a<100) && (a%2==0)) {
-        std::cout << "YES" << std::endl;  
+        std::cout << "YES" << std::endl;
     }
     else {
         std::cout << "NO" << std::endl;
@@ -488,9 +443,7 @@ int main() {
 }
 */
 
-
 // b)
-
 
 /*#include <iostream>
 int main() {
@@ -505,8 +458,6 @@ int main() {
     return 0;
 }
 */
-
-
 
 // 5 - a)
 
@@ -532,9 +483,7 @@ int main() {
     return 0;
 }*/
 
-
 // b
-
 
 /*#include <iostream>
 int main() {
@@ -559,9 +508,7 @@ int main() {
 }
 */
 
-
 // g)
-
 
 /*#include <iostream>
 int main() {
@@ -589,9 +536,7 @@ int main() {
 }
 */
 
-
-
-//6 - a)
+// 6 - a)
 
 /*#include <iostream>
 int main() {
@@ -605,8 +550,6 @@ int main() {
     }
     return 0;
 }*/
-
-
 
 // b)
 
@@ -623,10 +566,7 @@ int main() {
     return 0;
 }*/
 
-
-
 // c)
-
 
 /*#include <iostream>
 int main() {
@@ -641,11 +581,7 @@ int main() {
     return 0;
 }*/
 
-
-
-
 // d)
-
 
 /*#include <iostream>
 int main() {
@@ -659,9 +595,6 @@ int main() {
     }
     return 0;
 }*/
-
-
-
 
 // 7
 
@@ -680,11 +613,7 @@ int main() {
     return 0;
 }*/
 
-
-
 // 8
-
-
 
 /*#include <iostream>
 int main() {
@@ -696,7 +625,7 @@ int main() {
     C = a+c;
     if(A>c && B>a && C>b){
         std::cout << "YES" << std::endl;
-    } 
+    }
     else {
         std::cout << "NO" << std::endl;
     }
@@ -705,10 +634,7 @@ int main() {
 
 */
 
-
 // 9 - a)
-
-
 
 /*#include <iostream>
 int main() {
@@ -729,8 +655,6 @@ int main() {
     return 0;
 }*/
 
-
-
 // b)
 
 /*#include <iostream>
@@ -749,10 +673,9 @@ int main() {
             std::cout << "NO" << std::endl;
         }
 
-    } 
+    }
     return 0;
 }*/
-
 
 // c)
 
@@ -766,32 +689,133 @@ int main() {
     A = a+b;
     B = b+c;
     C = a+c;
-    
+
     ank_gumar = 180;
     if(A>c && B>a && C>b){
         if((x == ank_gumar/2 && y+z == 90) || (y == ank_gumar/2 && x+z == 90) || (z == ank_gumar/2 && x+y==90)) {
             std::cout << "YES" << std::endl;
-        } 
+        }
         else {
             std::cout << "NO" << std::endl;
         }
-    } 
+    }
     return 0;
 }*/
 
-
-
-
 // 10
 
+/*#include <iostream>
+int main() {
+    int x;
+    int y;
+    std::cin >> x >> y;
+    if(x>0 && y>0 && x<9 && y<9) {
+        std::cout << x << ", " << y << std::endl;
+    }
+    if((x % 2 == 1) && (y % 2 == 0)) {
+        std::cout << "White" << std::endl;
+    }
+    else {
+        std::cout << "Black" << std::endl;
+    }
+    return 0;
+}
+*/
 
+// 11
 
+/*#include <iostream>
+int main() {
+    int x;
+    int y;
+    int x1;
+    int y2;
+    std::cin >> x >> y >> x1 >> y2;
+    if(((x % 2 == 1 && y % 2 == 1) || (x % 2 == 0 && y % 2 == 0)) && ((x1 % 2 == 1 && y2 % 2 == 1) || (x1 % 2 == 0 && y2 % 2 == 0))) {
+        std::cout << "Yes" << std::endl;
+    }
+    else {
+        std::cout << "No" << std::endl;
+    }
+    return 0;
+}
+*/
 
+// 12 - a)
 
+/*#include <iostream>
+int main() {
+    int a;
+    int b;
+    int c;
+    int max;
+    std::cin >> a >> b >> c;
+    if(a>b && a>c) {
+        max = a;
+        std::cout << max << std::endl;
+    }
+    else if(b>a && b>c) {
+        max = b;
+        std::cout << max << std::endl;
+    }
+    else if(c > a && c > b){
+        max = c;
+        std::cout << max << std::endl;
+    }
+    else {
+        std::cout << "All given numbers are equal" << std::endl;
+    }
+    return 0;
+}
+*/
 
+// b)
 
+/*#include <iostream>
+int main() {
+    int a;
+    int b;
+    int c;
+    int min;
+    std::cin >> a >> b >> c;
+    if(a<b && a<c) {
+        min = a;
+        std::cout << min << std::endl;
+    }
+    else if(b<a && b<c) {
+        min = b;
+        std::cout << min << std::endl;
+    }
+    else if(c<a && c<b) {
+        min = c;
+        std::cout << min << std::endl;
+    }
+    else {
+        std::cout << "All given numbers are equal" << std::endl;
+    }
+    return 0;
+}*/
 
+// 16
 
-
+/*#include <iostream>
+int main () {
+    double a;
+    double b;
+    double c;
+    std::cin >> a >> b >> c;
+    if((a > b && b > c && a > c) || (a < b && b < c && a < c)) {
+        a*=2;
+        b*=2;
+        c*=2;
+    }
+    else {
+        a *= (-1);
+        b *= (-1);
+        c *= (-1);
+    }
+    std::cout << a << ", "  <<  b << ", " << c << std::endl;
+    return 0;
+}*/
 
 
